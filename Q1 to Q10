@@ -1,0 +1,62 @@
+                         Assignment-2: Python Basics 
+  Q1. Write a python script to add comments and print “Learning Python” on screen. 
+Ans: #printing a string
+print("Learning Python")
+Q2. Write a python script to add multi line comments and print values of four variables, each in a new line. Variable contains any values. 
+Ans:
+'''
+I am student of Python Batch
+
+'''
+Name="Nayana"
+Age=27
+Roll_no=12
+Batch='Python'
+print(Name)
+print(Age)
+print(Roll_no)
+print(Batch) 
+Q3. Write a python script to print types of variables. Create 5 variables each of them containing different types of data. (like 35, True, “MySirG”,5.46, 3+4j, etc)
+Ans: a=35
+b=True
+c="MySirG"
+d=5.46
+e=3+4j
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+
+ Q4. Write a python script to print the id of two variables containing the same integer values.
+Ans: a=10
+b=10
+print(id(a))
+print(id(b))
+ Q5. Create four variables in a Python script and assign values of different data types to them. Write a Python script to print value, its type and id of each variable 
+Ans: a=25
+b=False
+c="Python"
+d=5.25
+e=2+8j
+print(type(a),id(a))
+print(type(b),id(b))
+print(type(c),id(c))
+print(type(d),id(d))
+print(type(e),id(e))
+Q6. Write a python script to print all the keywords 
+Ans: import keyword
+print(keyword.kwlist)
+Q7. On Python shell use help() function and display the list of keywords 
+Ans: help()
+help>keyword
+Q 8. Create two Python files A0.py and A1.py. Create a variable in A1.py and assign some value to it. Write a python script to import A1 module in A0 and print value of the variable created in A0.py
+Ans: A1.py(x=10)
+A0.py(import A1) print(A1.x)
+          
+Q 9. Name the keywords, used as data in the Python script.
+Ans:’True’,False’,’None’
+ Q10. Write a python script to display the current date and time. First create variables to store date and time, then display date and time in proper format (like: 13-8-2022 and 9:00 PM)
+Ans: from datetime import datetime
+dt=datetime.today()
+print(dt)
